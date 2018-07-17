@@ -1,0 +1,42 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Aarseth}(1985)}]{Aarseth_1985}
+{Aarseth}, S.~J. 1985, in Multiple time scales, p. 377 - 418, ed. J.~U.
+  {Brackbill} \& B.~I. {Cohen}, 377--418
+
+\bibitem[{{Agnor} {et~al.}(1999){Agnor}, {Canup}, \&
+  {Levison}}]{Agnor_etal_1999}
+{Agnor}, C.~B., {Canup}, R.~M., \& {Levison}, H.~F. 1999, \icarus, 142, 219
+
+\bibitem[{{Chambers} \& {Wetherill}(1998)}]{Chambers_Wetherill_1998}
+{Chambers}, J.~E., \& {Wetherill}, G.~W. 1998, \icarus, 136, 304
+
+\bibitem[{{Kobayashi} \& {Tanaka}(2010)}]{Kobayashi_Tanaka_2010}
+{Kobayashi}, H., \& {Tanaka}, H. 2010, \icarus, 206, 735
+
+\bibitem[{{Kokubo} {et~al.}(2006){Kokubo}, {Kominami}, \&
+  {Ida}}]{Kokubo_etal_2006}
+{Kokubo}, E., {Kominami}, J., \& {Ida}, S. 2006, \apj, 642, 1131
+
+\bibitem[{{Kominami} \& {Ida}(2002)}]{Kominami_and_Ida_2002}
+{Kominami}, J., \& {Ida}, S. 2002, \icarus, 157, 43
+
+\bibitem[{{Makino}(1991)}]{Makino_1991}
+{Makino}, J. 1991, \apj, 369, 200
+
+\bibitem[{{Makino} \& {Aarseth}(1992)}]{Makino_Aarseth_1992}
+{Makino}, J., \& {Aarseth}, S.~J. 1992, \pasj, 44, 141
+
+\bibitem[{{Morishima}(2015)}]{Morishima_2015}
+{Morishima}, R. 2015, \icarus, 260, 368
+
+\bibitem[{{Morishima} {et~al.}(2010){Morishima}, {Stadel}, \&
+  {Moore}}]{Morishima_etal_2010}
+{Morishima}, R., {Stadel}, J., \& {Moore}, B. 2010, \icarus, 207, 517
+
+\bibitem[{{Tanaka} {et~al.}(1996){Tanaka}, {Inaba}, \&
+  {Nakazawa}}]{Tanaka_etal_1996}
+{Tanaka}, H., {Inaba}, S., \& {Nakazawa}, K. 1996, \icarus, 123, 450
+
+\end{thebibliography}

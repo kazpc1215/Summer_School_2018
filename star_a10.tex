@@ -1,3 +1,4 @@
+%#BIBTEX pbibtex star_a10
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %集録提出用のサンプルファイルです。
 %このファイルを参考にして集録を作成してください。
@@ -12,16 +13,129 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%使いたいパッケージがある場合は以下に書いてください。
 \usepackage[dvipdfmx]{graphicx,color}
-\usepackage{amsmath,amssymb}
-\usepackage{bm}
+
 
 \renewcommand{\refname}{参考文献}
+
+\def\aj{AJ}%
+         % Astronomical Journal
+\def\actaa{Acta Astron.}%
+         % Acta Astronomica
+\def\araa{ARA\&A}%
+         % Annual Review of Astron and Astrophys
+\def\apj{ApJ}%
+         % Astrophysical Journal
+\def\apjl{ApJ}%
+         % Astrophysical Journal, Letters
+\def\apjs{ApJS}%
+         % Astrophysical Journal, Supplement
+\def\ao{Appl.~Opt.}%
+         % Applied Optics
+\def\apss{Ap\&SS}%
+         % Astrophysics and Space Science
+\def\aap{A\&A}%
+         % Astronomy and Astrophysics
+\def\aapr{A\&A~Rev.}%
+         % Astronomy and Astrophysics Reviews
+\def\aaps{A\&AS}%
+         % Astronomy and Astrophysics, Supplement
+\def\azh{AZh}%
+         % Astronomicheskii Zhurnal
+\def\baas{BAAS}%
+         % Bulletin of the AAS
+\def\bac{Bull. astr. Inst. Czechosl.}%
+         % Bulletin of the Astronomical Institutes of Czechoslovakia
+\def\caa{Chinese Astron. Astrophys.}%
+         % Chinese Astronomy and Astrophysics
+\def\cjaa{Chinese J. Astron. Astrophys.}%
+         % Chinese Journal of Astronomy and Astrophysics
+\def\icarus{Icarus}%
+         % Icarus
+\def\jcap{J. Cosmology Astropart. Phys.}%
+         % Journal of Cosmology and Astroparticle Physics
+\def\jrasc{JRASC}%
+         % Journal of the RAS of Canada
+\def\mnras{MNRAS}%
+         % Monthly Notices of the RAS
+\def\memras{MmRAS}%
+         % Memoirs of the RAS
+\def\na{New A}%
+         % New Astronomy
+\def\nar{New A Rev.}%
+         % New Astronomy Review
+\def\pasa{PASA}%
+         % Publications of the Astron. Soc. of Australia
+\def\pra{Phys.~Rev.~A}%
+         % Physical Review A: General Physics
+\def\prb{Phys.~Rev.~B}%
+         % Physical Review B: Solid State
+\def\prc{Phys.~Rev.~C}%
+         % Physical Review C
+\def\prd{Phys.~Rev.~D}%
+         % Physical Review D
+\def\pre{Phys.~Rev.~E}%
+         % Physical Review E
+\def\prl{Phys.~Rev.~Lett.}%
+         % Physical Review Letters
+\def\pasp{PASP}%
+         % Publications of the ASP
+\def\pasj{PASJ}%
+         % Publications of the ASJ
+\def\qjras{QJRAS}%
+         % Quarterly Journal of the RAS
+\def\rmxaa{Rev. Mexicana Astron. Astrofis.}%
+         % Revista Mexicana de Astronomia y Astrofisica
+\def\skytel{S\&T}%
+         % Sky and Telescope
+\def\solphys{Sol.~Phys.}%
+         % Solar Physics
+\def\sovast{Soviet~Ast.}%
+         % Soviet Astronomy
+\def\ssr{Space~Sci.~Rev.}%
+         % Space Science Reviews
+\def\zap{ZAp}%
+         % Zeitschrift fuer Astrophysik
+\def\nat{Nature}%
+         % Nature
+\def\iaucirc{IAU~Circ.}%
+         % IAU Cirulars
+\def\aplett{Astrophys.~Lett.}%
+         % Astrophysics Letters
+\def\apspr{Astrophys.~Space~Phys.~Res.}%
+         % Astrophysics Space Physics Research
+\def\bain{Bull.~Astron.~Inst.~Netherlands}%
+         % Bulletin Astronomical Institute of the Netherlands
+\def\fcp{Fund.~Cosmic~Phys.}%
+         % Fundamental Cosmic Physics
+\def\gca{Geochim.~Cosmochim.~Acta}%
+         % Geochimica Cosmochimica Acta
+\def\grl{Geophys.~Res.~Lett.}%
+         % Geophysics Research Letters
+\def\jcp{J.~Chem.~Phys.}%
+         % Journal of Chemical Physics
+\def\jgr{J.~Geophys.~Res.}%
+         % Journal of Geophysics Research
+\def\jqsrt{J.~Quant.~Spec.~Radiat.~Transf.}%
+         % Journal of Quantitiative Spectroscopy and Radiative Trasfer
+\def\memsai{Mem.~Soc.~Astron.~Italiana}%
+         % Mem. Societa Astronomica Italiana
+\def\nphysa{Nucl.~Phys.~A}%
+         % Nuclear Physics A
+\def\physrep{Phys.~Rep.}%
+         % Physics Reports
+\def\physscr{Phys.~Scr}%
+         % Physica Scripta
+\def\planss{Planet.~Space~Sci.}%
+         % Planetary Space Science
+\def\procspie{Proc.~SPIE}%
+         % Proceedings of the SPIE
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%名前、所属、タイトルは以下に記入してください。
 %%所属は以下のように（）内にお願いします。
 \author{磯谷 和秀 (名古屋大学大学院 理学研究科)}
-\title{巨大衝突ステージにおける惑星-微惑星間の力学的摩擦と微惑星間の衝突・破壊の関係}
+\title{巨大衝突ステージにおける惑星-微惑星間の力学的摩擦と\\微惑星間の衝突・破壊の関係}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -52,29 +166,25 @@
 \section{背景}
 太陽系の地球型惑星は、大きく分けて3つのステージを経て形成される。
 まずダストから微惑星、次に微惑星から原始惑星、そして最後に原始惑星から地球型惑星が形成される。
-この最後の進化段階は巨大衝突ステージと呼ばれ、
-
-巨大衝突ステージを模擬し原始惑星の$N$体計算を行うと、合体成長を繰り返し数億年程度で現在の太陽系の地球型惑星のようないくつかの地球質量の惑星が形成される。
+この最後の進化段階は巨大衝突ステージと呼ばれ、地球型惑星の軌道や質量などを特徴付ける重要な時期である。
+\par
+巨大衝突ステージを模擬し原始惑星の$N$体計算を行うと、合体成長を繰り返し数億年程度で現在の太陽系の地球型惑星のようないくつかの地球質量の惑星が形成される\citep[e.g.,][]{Chambers_Wetherill_1998,Agnor_etal_1999,Kominami_and_Ida_2002,Kokubo_etal_2006}。
 しかし、原始惑星同士が軌道交差を起こすほど軌道が歪んだ状態で衝突合体が起きるため、最終的に形成される地球型惑星の離心率($\sim0.1$)は、現在の太陽系の地球型惑星の離心率($\sim0.01$)を説明できない。
-これに関する現在の惑星形成論の理解では、地球型惑星が形成された後に残存する微惑星との力学的摩擦によって地球型惑星の離心率が下げられるという説が有力である。
-ところが、この力学的摩擦によって微惑星の離心率が上がるため、微惑星同士の破壊的な衝突が起きるほど相対速度は速くなり、この破壊現象によって微惑星円盤の面密度は減少していく。
-微惑星の面密度減少によって力学的摩擦の効率が下がるため、本当に地球型惑星の離心率を下げることが可能なのかという問題が残る。
+これに関する現在の惑星形成論の理解では、地球型惑星が形成された後に残存する微惑星との力学的摩擦によって地球型惑星の離心率が下げられるという説が有力である\citep{Morishima_etal_2010}。
+\par
+ところが、この力学的摩擦の反作用や地球型惑星からの摂動によって残存微惑星の離心率が上がり、微惑星同士の破壊的な衝突が起きるほど相対速度が速くなる。
+そのため残存微惑星円盤の中では破片同士の衝突・破壊が次々に起こる（衝突カスケード）が、そのなかでも小さな破片は数が多く衝突が頻繁に起きており、破壊のタイムスケールが短い。
+破片が$\mu {\rm m}$サイズまで小さくなると、中心星の輻射圧により吹き飛ばされることで系から速やかに取り除かれるため、破片の総質量は減少していく。
+その結果、破片の質量分布は形を変えないまま総質量が減少する\citep[e.g.,][]{Tanaka_etal_1996}。
+このとき、一度の巨大衝突で放出される破片の減少のタイムスケールは最大放出破片が破片間の衝突によって壊れるタイムスケールになるため、放出破片の総質量の減少は比較的簡単に解析的に表現できる\citep{Kobayashi_Tanaka_2010}。
+\par
+すなわち微惑星の面密度減少によって力学的摩擦の効率が下がるため、本当に地球型惑星の離心率を下げることが可能なのかという問題が残る。
+\par
 この問題を調べるためには、長期的軌道進化と破壊を扱うことができる計算が必要である。
-
-デブリ円盤の中では破片同士の衝突破壊が次々に起こる（衝突カスケード）が、そのなかでも小さな破片は数が多く衝突が頻繁に起きており、破壊のタイムスケールが短い。
-破片が$\mu {\rm m}$サイズまで小さくなると、上述のように系から速やかに取り除かれるため、破片の総質量は減少していく。
-その結果、破片の質量分布は形を変えないまま総質量が減少する\citep[e.g.,][]{Tanaka1996}。
-このとき、一度の巨大衝突で放出される破片の減少のタイムスケールは最大放出破片が破片間の衝突によって壊れるタイムスケールになるため、放出破片の総質量の減少は比較的簡単に解析的に表現できる\citep{Kobayashi2010}。
-
-...そのため、破壊を考慮した$N$体シミュレーションが必要である。
-
-
-
-
-
 しかし衝突により放出される破片の数は$10^{35}$個以上にもなり、$N$体計算ではこれら全ての破片をとても扱うことはできない。
 このような多数の粒子を取り扱うには、一つ一つの粒子を取り扱うのではなく、統計力学に基づいた統計的手法が有効であるが、統計的手法では、破片が重力的に集積する際にサイズ分布が非軸対称になることや、原始惑星による軌道共鳴のような、重力相互作用の取り扱いができない。
 すなわち$N$体計算と統計的手法を同時に用いると、軌道進化と破壊を同時に考慮した計算を行うことができる。
+
 
 そこで本研究では、$N$体計算と統計的手法を組み合わせた、衝突破壊を扱うことができるハイブリッドコードの開発を行う。
 2節ではこのハイブリッドコードの計算手法について説明し、解析解のある問題で解析解を正しく再現できることを示す。
@@ -85,65 +195,48 @@
 衝突破壊の際に放出される破片の数は$10^{35}$個以上にもなり、個々の破片を$N$体計算で扱うことは計算コスト的に非常に困難である。
 そこで本研究では、ほぼ同じ軌道上を運動する複数の破片を1つの粒子（トレーサーと呼ぶ）として表現するスーパー粒子近似を用いる。
 １つのトレーサー内に存在する様々な破片は、同じトレーサーや他のトレーサーの破片と衝突を繰り返し、小さな破片となっていく。
-破片は$1\mu {\rm m}$程度になると中心星の輻射圧により吹き飛ばされ、系から取り除かれる。このような衝突の繰り返しによる衝突カスケードと輻射圧による吹き飛ばしが起こると破片の総質量は減少していく。減少率は、破片の面密度と破片間の衝突速度の関数で与えられる\citep{Kobayashi2010}。トレーサーの軌道分布からこれらを導出し、軌道進化と衝突進化を同時に解く方法をこの節で説明する。
+破片は$1\mu {\rm m}$程度になると中心星の輻射圧により吹き飛ばされ、系から取り除かれる。このような衝突の繰り返しによる衝突カスケードと輻射圧による吹き飛ばしが起こると破片の総質量は減少していく。減少率は、破片の面密度と破片間の衝突速度の関数で与えられる\citep{Kobayashi_Tanaka_2010}。トレーサーの軌道分布からこれらを導出し、軌道進化と衝突進化を同時に解く方法をこの節で説明する。
 
 \subsection{$N$体計算}
-本研究では、以下で述べる4次のエルミート法\citep{Makino1992}用いて計算を行う。
+本研究では、以下で述べる4次のエルミート法\citep{Makino_Aarseth_1992}と独立タイムステップを用いて計算を行う。
 
-時間$t$での位置と速度(${\bm x}_{0,j},{\bm v}_{0,j}$)、加速度とその時間微分(${\bm a}_{0,j},\dot{{\bm a}}_{0,j}$)から、時間$t + \Delta t$における位置と速度(${\bm x}_{p,j} , {\bm v}_{p,j}$)を次のように予測する。
-\begin{align}
-{\bm x}_{p,j} &= {\bm x}_{0,j} + \Delta t {\bm v}_{0,j} + \frac{\Delta t ^2}{2} {\bm a}_{0,j} + \frac{\Delta t ^3}{6} \dot{{\bm a}}_{0,j},\\
-{\bm v}_{p,j} &= {\bm v}_{0,j} + \Delta t {\bm a}_{0,j} + \frac{\Delta t ^2}{2} \dot{{\bm a}}_{0,j}.
-\end{align}
-これらを予測子と呼ぶ。この段階では2次精度である。
-次に予測子を使って、 時間$t + \Delta t$での加速度とその時間微分(${\bm a}_{1,j},\dot{{\bm a}}_{1,j}$)を次のように求める。
-\begin{align}
-{\bm a}_{1,j} &= - \sum_{k \not= j} G m_k \frac{{\bm r}_{jk}}{(r_{jk}^2 + \epsilon^2)^{3/2}}, \label{eq:a1j}\\
-\dot{{\bm a}}_{1,j} &= - \sum_{k \not= j} G m_k \left[ \frac{{\bm v}_{jk}}{(r_{jk}^2 + \epsilon^2)^{3/2}} - \frac{3 ( {\bm v}_{jk} \cdot {\bm r}_{jk} ) {\bm r}_{jk} }{(r_{jk}^2 + \epsilon^2)^{5/2}} \right]. \label{eq:adot1j}
-\end{align}
-ここで、${\bm r}_{jk} = {\bm x}_{p,j} - {\bm x}_{p,k},{\bm v}_{jk} = {\bm v}_{p,j} - {\bm v}_{p,k}$であり、$\epsilon$は計算上の発散を抑えるためのソフトニングパラメータである（本研究では$\epsilon=0$）。
+まず時間$t$での位置と速度(${\bm x}_{0,j},{\bm v}_{0,j}$)、加速度とその時間微分(${\bm a}_{0,j},\dot{{\bm a}}_{0,j}$)から、時間$t + \Delta t$における位置と速度を2次精度の(${\bm x}_{{\rm p},j} , {\bm v}_{{\rm p},j}$)へと予測する。
+これらを予測子と呼ぶ。
+次に予測子を使って、時間$t + \Delta t$での加速度とその時間微分(${\bm a}_{1,j},\dot{{\bm a}}_{1,j}$)を求める。
 続いて、時間$t$から$t+\Delta t$間の加速度の時間変化を、
+時間$t$における加速度の2階と3階の時間導関数(${\bm a}_{0,j}^{(2)},{\bm a}_{0,j}^{(3)}$)を用いた3次のエルミート補間多項式で近似し、
+(${\bm a}_{0,j}^{(2)},{\bm a}_{0,j}^{(3)}$)について逆に解くと、
 \begin{align}
-{\bm a}_{1,j} &= {\bm a}_{0,j} + \Delta t \dot{{\bm a}}_{0,j} + \frac{\Delta t ^2}{2} {\bm a}_{0,j}^{(2)} + \frac{\Delta t ^3}{6} {\bm a}_{0,j}^{(3)},\\
-\dot{{\bm a}}_{1,j} &= \dot{{\bm a}}_{0,j} + \Delta t {\bm a}_{0,j}^{(2)} + \frac{\Delta t ^2}{2} {\bm a}_{0,j}^{(3)}
-\end{align}
-のような3次のエルミート補間多項式で近似する。
-ここで、${\bm a}_{0,j}^{(2)},{\bm a}_{0,j}^{(3)}$は時間$t$における加速度の2階と3階の時間導関数であり、
-${\bm a}_{0,j}^{(2)},{\bm a}_{0,j}^{(3)}$について解くと、
-\begin{align}
-{\bm a}_{0,j}^{(2)} &= \frac{- 6 ({\bm a}_{0,j} - {\bm a}_{1,j}) - \Delta t (4 \dot{{\bm a}}_{0,j} + 2 \dot{{\bm a}}_{1,j})}{\Delta t ^2},\\
+{\bm a}_{0,j}^{(2)} &= \frac{- 6 ({\bm a}_{0,j} - {\bm a}_{1,j}) - \Delta t (4 \dot{{\bm a}}_{0,j} + 2 \dot{{\bm a}}_{1,j})}{\Delta t ^2}\\
 {\bm a}_{0,j}^{(3)} &= \frac{12 ({\bm a}_{0,j} - {\bm a}_{1,j}) + 6 \Delta t (\dot{{\bm a}}_{0,j} + \dot{{\bm a}}_{1,j})}{\Delta t ^3}
 \end{align}
 となる。
-そして、この${\bm a}_{0,j}^{(2)},{\bm a}_{0,j}^{(3)}$を使って、位置と速度の予測子を以下のように修正する。
-\begin{align}
-{\bm x}_{c,j} &= {\bm x}_{p,j} + \frac{\Delta t ^4}{24} {\bm a}_{0,j}^{(2)} + \frac{\Delta t ^5}{120} {\bm a}_{0,j}^{(3)},\\
-{\bm v}_{c,j} &= {\bm v}_{p,j} + \frac{\Delta t ^3}{6} {\bm a}_{0,j}^{(2)} + \frac{\Delta t ^4}{24} {\bm a}_{0,j}^{(3)}.
-\end{align}
+そしてこの(${\bm a}_{0,j}^{(2)},{\bm a}_{0,j}^{(3)}$)を使って、時間$t + \Delta t$における予測子を4次精度の(${\bm x}_{{\rm c},j} , {\bm v}_{{\rm c},j}$)へ修正する。
 これらを修正子と呼ぶ。
-修正子を使って新たな加速度とその時間微分(${\bm a}_{1,j}^{\rm new},\dot{{\bm a}}_{1,j}^{\rm new}$)を計算する。これらは、式(\ref{eq:a1j})、式(\ref{eq:adot1j})で、${\bm r}_{jk} = {\bm x}_{c,j} - {\bm x}_{c,k},{\bm v}_{jk} = {\bm v}_{c,j} - {\bm v}_{c,k}$とすれば求まる。必要な回数だけ修正を繰り返す。
+修正子を使って新たな加速度とその時間微分(${\bm a}_{1,j}^{\rm new},\dot{{\bm a}}_{1,j}^{\rm new}$)を計算する。
+必要な回数だけ修正を繰り返す。
 
 独立タイムステップは、粒子$j$ごとに別々の時間$t_j$とタイムステップ$\Delta t_j$をもち、別々に時間発展する。
-タイムステップの計算には以下の表式を用いる\citep{Aarseth1985}。
+タイムステップの計算には以下の表式を用いる\citep{Aarseth_1985}。
 \begin{align}
-\Delta t_j = \sqrt{\eta \frac{| {\bm a}_{1,j}| | {\bm a}_{1,j}^{(2)} | + | \dot{{\bm a}}_{1,j}| ^2}{| \dot{{\bm a}}_{1,j}| | {\bm a}_{1,j}^{(3)} | + | {\bm a}_{1,j}^{(2)} | ^2}}.
+\Delta t_j = \sqrt{\eta \frac{| {\bm a}_{1,j}| | {\bm a}_{1,j}^{(2)} | + | \dot{{\bm a}}_{1,j}| ^2}{| \dot{{\bm a}}_{1,j}| | {\bm a}_{1,j}^{(3)} | + | {\bm a}_{1,j}^{(2)} | ^2}}
 \end{align}
-これは4次スキームでは非常に効率が良いことが分かっている\citep{Makino1991}。ここで、$\eta$は積分の精度を決めるパラメータである。また${\bm a}_{1,j}^{(2)} = {\bm a}_{0,j}^{(2)} + {\bm a}_{0,j}^{(3)} \Delta t, {\bm a}_{1,j}^{(3)} = {\bm a}_{0,j}^{(3)}$と見積もる。
+これは4次スキームでは非常に効率が良いことが分かっている\citep{Makino_1991}。ここで、$\eta$は積分の精度を決めるパラメータである。また${\bm a}_{1,j}^{(2)} = {\bm a}_{0,j}^{(2)} + {\bm a}_{0,j}^{(3)} \Delta t, {\bm a}_{1,j}^{(3)} = {\bm a}_{0,j}^{(3)}$と見積もる。
 系全体の時間$t_{\rm sys}$は、$t_j + \Delta t_j$が最小になる粒子$j_{\rm sys}$を探し、$j_{\rm sys}$と共に進める。そして$t_{\rm sys}$における全ての予測子を計算し、$j_{\rm sys}$のみ修正をし、$t_{j_{\rm sys}}$のみ$\Delta t_{j_{\rm sys}}$だけ時間を進める。これを繰り返して時間発展させる。
 
 \subsection{統計的手法}
-破片の集団が存在している時、その面密度$\Sigma$と相対速度$v$が決まると、破片の面密度の変化率は以下のように与えられる\citep{Kobayashi2010}。
+破片の集団が存在している時、その面密度$\Sigma$と相対速度$v$が決まると、破片の面密度の変化率は以下のように与えられる\citep{Kobayashi_Tanaka_2010}。
 \begin{align}
  \frac{d \Sigma}{d t} =& - \frac{(2 - \alpha)^2}{m_{\rm max}^{1/3}} \Sigma^2 \Omega_{\rm K} h_0 \left( \frac{v(m_{\rm max})^2}{2 Q_{\rm D}^{\ast}(m_{\rm max})} \right)^{\alpha - 1} \nonumber \\
- &\times \left[ \left( - \ln \epsilon + \frac{1}{2 - b} \right) s_1 + s_2 + s_3 \right]. \label{eq:tau}
+ &\times \left[ \left( - \ln \epsilon + \frac{1}{2 - b} \right) s_1 + s_2 + s_3 \right] \label{eq:tau}
 \end{align}
 ここで、$b,\epsilon$は無次元パラメータ、$h_0,s_1,s_2,s_3$は定数、$\Omega_{\rm K}$はケプラー角速度、$Q_{\rm D}^{\ast}$は臨界エネルギー、そして$\alpha$は破片の面数密度のべき($n_{\rm s} (m) dm \propto m^{- \alpha} dm$)である。
-$v(m)^2/Q_{\rm D}^{\ast}(m) \propto m^p$のように質量に依存するとき、すなわち破壊のモデルが非自己相似の場合、定常衝突カスケードにおいて、$\alpha$は以下のように与えられる\citep{Kobayashi2010}。
+$v(m)^2/Q_{\rm D}^{\ast}(m) \propto m^p$のように質量に依存するとき、すなわち破壊のモデルが非自己相似の場合、定常衝突カスケードにおいて、$\alpha$は以下のように与えられる\citep{Kobayashi_Tanaka_2010}。
 \begin{align}
  \alpha = \frac{11 + 3p}{6 + 3p}.
 \end{align}
 各トレーサーが持つ破片の質量の減少率を計算するためには、トレーサーの周囲の破片の面密度とトレーサーに内在する破片と他の破片の衝突速度を求める必要がある。
-そこで、まずトレーサー$i$の位置を2次元極座標($r_i,\theta_i$)に射影し、動径方向に$r_i \pm \delta r$、方位角方向に$\theta_i \pm \delta \theta$の広がりをもった扇形領域$i$を形成する。
+そこで、まずトレーサー$i$の位置を2次元極座標($r_i,\theta_i$)に射影し、動径方向に$r_i \pm \delta r$、方位角方向に$\theta_i \pm \delta \theta$の広がりをもった扇形領域$i$を形成する\citep{Morishima_2015}。
 この領域$i$に入っている他のトレーサーを$j$とし、$j$の総数を$N$とする。
 面密度は$i$自身と$j$の質量の総和を領域$i$の面積で割り、
 \begin{align}
@@ -152,14 +245,14 @@ $v(m)^2/Q_{\rm D}^{\ast}(m) \propto m^p$のように質量に依存するとき�
 のように計算する。次にトレーサー$i$と$j$の相対速度は、ランダム速度$\sqrt{e_{i,j}^2 + i_{i,j}^2} v_{{\rm K},i}$で近似する。
 ここで、$e_{i,j}$と$i_{i,j}$はそれぞれ相対離心率と相対軌道傾斜角を表し、
 \begin{align}
- e_{i,j}^2 &= e_i^2 + e_j^2 - 2 e_i e_j \cos(\varpi_i - \varpi_j),\\
+ e_{i,j}^2 &= e_i^2 + e_j^2 - 2 e_i e_j \cos(\varpi_i - \varpi_j)\\
  i_{i,j}^2 &= i_i^2 + i_j^2 - 2 i_i i_j \cos(\Omega_i - \Omega_j)
 \end{align}
 のように定義される。
 ここで、$\varpi$は近点経度、$\Omega$は昇交点経度である。$v_{{\rm K},i}$は$i$のケプラー速度である。
 そして$j$について平均をとり、平均相対速度を衝突速度だとみなす。
 \begin{align}
- v_i = \frac{\sum_{j}^{N} \sqrt{e_{i,j}^2+i_{i,j}^2} v_{{\rm K},i}}{N}.
+ v_i = \frac{\sum_{j}^{N} \sqrt{e_{i,j}^2+i_{i,j}^2} v_{{\rm K},i}}{N}
 \end{align}
 
 トレーサー$i$の質量変化は、
@@ -169,39 +262,57 @@ $v(m)^2/Q_{\rm D}^{\ast}(m) \propto m^p$のように質量に依存するとき�
 のように計算する。
 ここで、$\tau_{\rm dep}$は以下の式で定義され、式(\ref{eq:tau})を用いて値は求められる。
 \begin{align}
- \tau_{\rm dep} = \frac{\Sigma}{|d \Sigma/ dt|}.
+ \tau_{\rm dep} = \frac{\Sigma}{|d \Sigma/ dt|}
 \end{align}
 統計的手法のタイムステップ$\Delta t_{{\rm frag},i}$の取り方は、質量減少タイムスケール$\tau_{{\rm dep},i}$を基準にして、$\Delta t_{{\rm frag},i}/\tau_{{\rm dep},i} = \xi \ll 1$とする。
 そして$N$体計算では独立タイムステップを用いているため、トレーサー$i$の$N$体計算の時間$t_i$が統計的手法の時間$t_{{\rm frag},i}$を上回ったときにトレーサー$i$の質量を減少させ、$t_{{\rm frag},i} \to t_{{\rm frag},i} + \Delta t_{{\rm frag},i}$に更新する。
 
+\section{結果}
+
+
+\begin{figure}[h]
+\begin{tabular}{ccc}
+%左
+\begin{minipage}[t]{0.5\hsize}
+\centering
+\includegraphics[width=4cm]{./image/axis_ecc_T00_rand08.png}
+\end{minipage} &
+%右
+\begin{minipage}[t]{0.5\hsize}
+\centering
+\includegraphics[width=4cm]{./image/axis_ecc_T33_rand08.png}
+\end{minipage}\\
+%
+\end{tabular}
+\caption{\label{fig:axis_ecc3}}
+\end{figure}
+
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=8cm]{./image/Ntr3E3_t1E3_dtlog_Mtot3E-5_ecc1E-2_noacc_ecc_wf_wof.pdf}
+ \caption{\label{fig:ecc1_time}}
+\end{figure}
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=8cm]{./image/Ntr3E3_t1E3_dtlog_Mtot3E-5_ecc3E-2_noacc_ecc_wf_wof.pdf}
+ \caption{\label{fig:ecc3_time}}
+\end{figure}
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=8cm]{./image/Ntr3E3_t1E3_dtlog_Mtot3E-5_ecc5E-2_noacc_ecc_wf_wof.pdf}
+ \caption{\label{fig:ecc5_time}}
+\end{figure}
+
 \section*{謝辞}
 
 \small
-\begin{thebibliography}{99}
- \bibitem[Aarseth(1985)]{Aarseth1985}
- Aarseth, S. J. 1985, in Multiple Time Scales, ed. J. U. Brackbill and B. I. Cohen (New York:Academic), 377
- \bibitem[Genda et al.(2015)]{Genda2015}
- Genda, H., Kobayashi, H., \& Kokubo, E. 2015, ApJ, 810, 136 
- \bibitem[Genda et al.(2012)]{Genda2012}
- Genda, H., Kokubo, E., \& Ida, S. 2012, ApJ, 744, 137
- \bibitem[Jackson \& Wyatt(2012)]{Jackson2012}
- Jackson, A. P. \& Wyatt, M. C. 2012, MNRAS, 425, 657
- \bibitem[Kobayashi \& Tanaka (2010)]{Kobayashi2010} Kobayashi, H., \& Tanaka, H. 2010, Icarus, 206, 735
- \bibitem[Kokubo et al.(2006)]{Kokubo2006} Kokubo, E., Kominami, J., \& Ida, S. 2006, ApJ, 642, 1131
- \bibitem[Makino(1991)]{Makino1991}
- Makino, J. 1991, ApJ, 369, 200
- \bibitem[Makino \& Aarseth(1992)]{Makino1992}
- Makino, J., \& Aarseth, S. J. 1992, PASJ, 44, 141
- \bibitem[Morishima et al.(2010)]{Morishima2010} Morishima, R., Stadel, J., \& Moore, B. 2010, Icarus, 207, 517
- \bibitem[Morishima(2015)]{Morishima2015}
- Morishima, R. 2015, Icarus, 260, 368
- \bibitem[Tanaka et al.(1996)]{Tanaka1996}
- Tanaka, H., Inaba, S., Nakazawa, K. 1996, Icarus, 123, 450
-\end{thebibliography}
-
-
-
-
-
+\bibliography{myref}
+\bibliographystyle{apj}
 
 \end{document}
