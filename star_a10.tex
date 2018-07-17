@@ -13,7 +13,21 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%使いたいパッケージがある場合は以下に書いてください。
 \usepackage[dvipdfmx]{graphicx,color}
+\usepackage{caption}
+%\captionsetup[figure]{format=plain, labelformat=simple, labelsep=period, font=normalsize}
+\usepackage{here}
+\usepackage{chngcntr}
 
+\makeatletter
+\let\MYcaption\@makecaption
+\makeatother
+
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
+
+\makeatletter
+\let\@makecaption\MYcaption
+\makeatother
 
 \renewcommand{\refname}{参考文献}
 
@@ -129,6 +143,7 @@
          % Planetary Space Science
 \def\procspie{Proc.~SPIE}%
          % Proceedings of the SPIE
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -270,44 +285,50 @@ $v(m)^2/Q_{\rm D}^{\ast}(m) \propto m^p$のように質量に依存するとき�
 \section{結果}
 
 
-\begin{figure}[h]
-\begin{tabular}{ccc}
+\begin{figure}[H]
+\begin{tabular}{cc}
 %左
 \begin{minipage}[t]{0.5\hsize}
 \centering
-\includegraphics[width=4cm]{./image/axis_ecc_T00_rand08.png}
+\includegraphics[width=\textwidth]{./image/axis_ecc_T00_nofrag_rand08.png}
+\subcaption{初期}
 \end{minipage} &
 %右
 \begin{minipage}[t]{0.5\hsize}
 \centering
-\includegraphics[width=4cm]{./image/axis_ecc_T33_rand08.png}
+\includegraphics[width=\textwidth]{./image/axis_ecc_T33_nofrag_rand08.png}
+\subcaption{破壊なし}
+\end{minipage}\\
+%
+\end{tabular}\\
+\begin{tabular}{cc}
+%左
+\begin{minipage}[t]{0.5\hsize}
+\centering
+\includegraphics[width=\textwidth]{./image/axis_ecc_T33_frag_1E19_rand08.png}
+\subcaption{$m_{\rm max}=10^{19} \rm g$}
+\end{minipage} &
+%右
+\begin{minipage}[t]{0.5\hsize}
+\centering
+\includegraphics[width=\textwidth]{./image/axis_ecc_T33_frag_1E16_rand08.png}
+\subcaption{$m_{\rm max}=10^{16} \rm g$}
 \end{minipage}\\
 %
 \end{tabular}
-\caption{\label{fig:axis_ecc3}}
+\caption{\label{fig:axis_ecc}}
 \end{figure}
 
 
 
-\begin{figure}[h]
- \centering
- \includegraphics[width=8cm]{./image/Ntr3E3_t1E3_dtlog_Mtot3E-5_ecc1E-2_noacc_ecc_wf_wof.pdf}
- \caption{\label{fig:ecc1_time}}
-\end{figure}
 
-
-\begin{figure}[h]
+\begin{figure}[H]
  \centering
  \includegraphics[width=8cm]{./image/Ntr3E3_t1E3_dtlog_Mtot3E-5_ecc3E-2_noacc_ecc_wf_wof.pdf}
  \caption{\label{fig:ecc3_time}}
 \end{figure}
 
 
-\begin{figure}[h]
- \centering
- \includegraphics[width=8cm]{./image/Ntr3E3_t1E3_dtlog_Mtot3E-5_ecc5E-2_noacc_ecc_wf_wof.pdf}
- \caption{\label{fig:ecc5_time}}
-\end{figure}
 
 \section*{謝辞}
 
