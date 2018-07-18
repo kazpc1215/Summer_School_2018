@@ -4,45 +4,45 @@ The top-level auxiliary file: star_a10.aux
 The style file: apj.bst
 Database file #1: myref.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 11 entries,
+You've used 12 entries,
             3085 wiz_defined-function locations,
-            724 strings with 6277 characters,
-and the built_in function-call counts, 4739 in all, are:
-= -- 429
-> -- 251
+            731 strings with 6489 characters,
+and the built_in function-call counts, 5198 in all, are:
+= -- 470
+> -- 281
 < -- 7
-+ -- 82
-- -- 83
-* -- 352
-:= -- 870
-add.period$ -- 11
-call.type$ -- 11
-change.case$ -- 67
-chr.to.int$ -- 11
-cite$ -- 11
-duplicate$ -- 214
-empty$ -- 326
-format.name$ -- 107
-if$ -- 970
++ -- 92
+- -- 94
+* -- 390
+:= -- 955
+add.period$ -- 12
+call.type$ -- 12
+change.case$ -- 74
+chr.to.int$ -- 12
+cite$ -- 12
+duplicate$ -- 233
+empty$ -- 354
+format.name$ -- 119
+if$ -- 1062
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 37
-num.names$ -- 45
-pop$ -- 75
+missing$ -- 11
+newline$ -- 40
+num.names$ -- 49
+pop$ -- 83
 preamble$ -- 1
-purify$ -- 67
+purify$ -- 74
 quote$ -- 0
-skip$ -- 186
+skip$ -- 201
 stack$ -- 0
-substring$ -- 249
+substring$ -- 270
 swap$ -- 8
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 99
+type$ -- 108
 warning$ -- 0
-while$ -- 46
+while$ -- 50
 width$ -- 0
-write$ -- 113
+write$ -- 123
 is.kanji.str$ -- 0
